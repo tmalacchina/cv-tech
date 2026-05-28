@@ -207,10 +207,7 @@ export default function HeroSky() {
 
         <div className="mt-8 max-w-md md:max-w-lg">
           <p className="text-base font-medium leading-relaxed text-white md:text-lg">
-            Ingénieur d'affaires, je déploie des LLMs chez les grands comptes.
-          </p>
-          <p className="mt-2 text-sm leading-relaxed text-slate-400 md:text-base">
-            Ma méthode : la preuve par le code, pas la promesse par le slide.
+            Du script Python qui parle aux capteurs au dashboard React qui les rend lisibles : je code la chaîne complète, du repo vide au produit qui tourne en production.
           </p>
         </div>
       </motion.div>

@@ -290,7 +290,7 @@ export default function MoltenCore() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="text-xs uppercase tracking-[0.4em] text-amber-200/80 md:text-sm"
         >
-          Noyau · 6 371 km plus bas
+          Disponible — mission Enterprise
         </motion.p>
 
         <motion.h2
@@ -303,7 +303,7 @@ export default function MoltenCore() {
             textShadow: "0 0 40px rgba(255, 150, 50, 0.4)",
           }}
         >
-          On allume la
+          Du PoC à la
           <br />
           <span
             className="inline-block bg-clip-text text-transparent"
@@ -312,7 +312,7 @@ export default function MoltenCore() {
                 "linear-gradient(180deg, #FFE5A0 0%, #FF9020 60%, #FF4500 100%)",
             }}
           >
-            machine&nbsp;?
+            production.
           </span>
         </motion.h2>
 
@@ -323,7 +323,7 @@ export default function MoltenCore() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="mx-auto mt-8 max-w-2xl text-base font-light leading-relaxed text-amber-50/90 md:text-lg"
         >
-          Tu cherches un dev junior confirmé capable d'attaquer une stack moderne (Python, React, APIs), de coder en autonomie, et de livrer en sprints courts. Je suis chaud pour rejoindre une mission qui me fait monter d'un cran.
+          Vous concevez un outil de remontée de données capteurs, un dashboard de supervision industriel ou un PoC à industrialiser. Je développe et livre — Python pour la chaîne data, React pour l'interface, méthode courte de la spec à la mise en service.
         </motion.p>
 
         {/* Boutons CTA */}

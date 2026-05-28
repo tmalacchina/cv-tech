@@ -598,15 +598,16 @@ export default function TechUnderground() {
                 </div>
                 <div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-white/10">
                   <motion.div
-                    initial={{ width: 0 }}
-                    whileInView={{ width: `${lang.percent}%` }}
-                    viewport={{ once: true, margin: "-80px" }}
+                    initial={{ scaleX: 0 }}
+                    whileInView={{ scaleX: lang.percent / 100 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     transition={{
                       duration: 1.2,
                       delay: 0.3 + i * 0.2,
                       ease: "easeOut",
                     }}
-                    className="h-full rounded-full bg-gradient-to-r from-amber-300 via-orange-400 to-amber-500"
+                    style={{ transformOrigin: "left" }}
+                    className="h-full w-full rounded-full bg-gradient-to-r from-amber-300 via-orange-400 to-amber-500"
                   />
                 </div>
               </div>
