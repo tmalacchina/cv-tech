@@ -191,7 +191,7 @@ export default function HeroSky() {
       {/* Texte — haut gauche (nom, titre, baseline) */}
       <motion.div
         style={{ y: textY, opacity: textOpacity }}
-        className="absolute left-6 top-[14%] z-30 max-w-[90%] will-change-transform md:left-16 md:top-[18%] md:max-w-2xl lg:left-24"
+        className="absolute left-6 top-[5%] z-30 max-w-[90%] will-change-transform md:left-16 md:top-[18%] md:max-w-2xl lg:left-24"
       >
         <h1 className="text-5xl font-bold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-8xl">
           Thomas
@@ -215,7 +215,7 @@ export default function HeroSky() {
       {/* Photo — haut droite, émerge du nuage */}
       <motion.div
         style={{ y: photoY, opacity: photoOpacity }}
-        className="absolute bottom-[15%] right-0 z-10 h-[75%] w-[260px] will-change-transform md:right-8 md:w-[400px] lg:right-16 lg:w-[480px]"
+        className="absolute bottom-[15%] right-0 z-10 h-[60%] w-[260px] will-change-transform md:h-[75%] md:right-8 md:w-[400px] lg:right-16 lg:w-[480px]"
       >
         <Image
           src="/profile.png"

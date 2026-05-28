@@ -380,48 +380,6 @@ export default function ExperienceEarth() {
         transition={{ duration: 0.9, ease: "easeInOut" }}
       />
 
-      {/* SKYLINE — z-[3], deux couches cross-fadées */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 bottom-0 z-[3] h-[180px] md:h-[240px] lg:h-[280px]"
-      >
-        {/* Couche HIVER (toujours visible, base) */}
-        <svg
-          viewBox={`0 0 ${CITY_VIEWBOX_W} ${CITY_VIEWBOX_H}`}
-          preserveAspectRatio="xMidYEnd slice"
-          className="absolute inset-0 h-full w-full"
-        >
-          {CITY_BUILDINGS.map((b, i) => (
-            <CityBuilding key={`w-${i}`} building={b} mode="winter" />
-          ))}
-        </svg>
-
-        {/* Couche ÉTÉ — overlay cross-fade */}
-        <motion.svg
-          viewBox={`0 0 ${CITY_VIEWBOX_W} ${CITY_VIEWBOX_H}`}
-          preserveAspectRatio="xMidYEnd slice"
-          className="absolute inset-0 h-full w-full"
-          animate={{ opacity: isSummer ? 1 : 0 }}
-          transition={{ duration: 0.9, ease: "easeInOut" }}
-        >
-          {CITY_BUILDINGS.map((b, i) => (
-            <CityBuilding key={`s-${i}`} building={b} mode="summer" />
-          ))}
-        </motion.svg>
-
-        {/* Halo lumineux au-dessus des toits en hiver (pollution lumineuse douce) */}
-        <motion.div
-          aria-hidden
-          className="absolute inset-x-0 bottom-0 h-full"
-          style={{
-            background:
-              "linear-gradient(to top, rgba(255, 200, 130, 0.18) 0%, rgba(255, 200, 130, 0.06) 35%, transparent 70%)",
-          }}
-          animate={{ opacity: isSummer ? 0 : 1 }}
-          transition={{ duration: 0.9, ease: "easeInOut" }}
-        />
-      </div>
-
       {/* En-tête de section */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -443,7 +401,7 @@ export default function ExperienceEarth() {
       </motion.div>
 
       {/* Cartes — padding bas augmenté pour respirer au-dessus des toits */}
-      <div className="relative z-10 mx-auto mt-48 flex max-w-6xl flex-col gap-20 px-6 pb-52 md:mt-56 md:gap-28 md:px-12 md:pb-[22rem] lg:mt-64 lg:pb-[26rem]">
+      <div className="relative z-10 mx-auto mt-48 flex max-w-6xl flex-col gap-20 px-6 pb-12 md:mt-56 md:gap-28 md:px-12 md:pb-16 lg:mt-64 lg:pb-20">
         {EXPERIENCES.map((exp, i) => {
           const isFirst = i === 0;
 
@@ -557,6 +515,48 @@ export default function ExperienceEarth() {
             </motion.article>
           );
         })}
+      </div>
+
+      {/* SKYLINE — z-[3], en flow normal pour rester collée au contenu */}
+      <div
+        aria-hidden
+        className="pointer-events-none relative z-[3] w-full h-[180px] md:h-[240px] lg:h-[280px]"
+      >
+        {/* Couche HIVER (toujours visible, base) */}
+        <svg
+          viewBox={`0 0 ${CITY_VIEWBOX_W} ${CITY_VIEWBOX_H}`}
+          preserveAspectRatio="xMidYEnd slice"
+          className="absolute inset-0 h-full w-full"
+        >
+          {CITY_BUILDINGS.map((b, i) => (
+            <CityBuilding key={`w-${i}`} building={b} mode="winter" />
+          ))}
+        </svg>
+
+        {/* Couche ÉTÉ — overlay cross-fade */}
+        <motion.svg
+          viewBox={`0 0 ${CITY_VIEWBOX_W} ${CITY_VIEWBOX_H}`}
+          preserveAspectRatio="xMidYEnd slice"
+          className="absolute inset-0 h-full w-full"
+          animate={{ opacity: isSummer ? 1 : 0 }}
+          transition={{ duration: 0.9, ease: "easeInOut" }}
+        >
+          {CITY_BUILDINGS.map((b, i) => (
+            <CityBuilding key={`s-${i}`} building={b} mode="summer" />
+          ))}
+        </motion.svg>
+
+        {/* Halo lumineux au-dessus des toits en hiver (pollution lumineuse douce) */}
+        <motion.div
+          aria-hidden
+          className="absolute inset-x-0 bottom-0 h-full"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(255, 200, 130, 0.18) 0%, rgba(255, 200, 130, 0.06) 35%, transparent 70%)",
+          }}
+          animate={{ opacity: isSummer ? 0 : 1 }}
+          transition={{ duration: 0.9, ease: "easeInOut" }}
+        />
       </div>
 
       {/* Flocons — fade out en mode été */}
