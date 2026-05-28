@@ -521,6 +521,7 @@ export default function ExperienceEarth() {
       <div
         aria-hidden
         className="pointer-events-none relative z-[3] w-full h-[180px] md:h-[240px] lg:h-[280px]"
+        style={{ marginBottom: -1 }}
       >
         {/* Couche HIVER (toujours visible, base) */}
         <svg

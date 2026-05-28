@@ -447,7 +447,7 @@ export default function TechUnderground() {
       {/* Transition douce depuis la skyline noire de la Section 2 */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 z-0 h-32"
+        className="pointer-events-none absolute inset-x-0 top-0 z-0 h-12 md:h-32"
         style={{
           background:
             "linear-gradient(to bottom, #050810 0%, rgba(26,14,7,0.6) 60%, transparent 100%)",
@@ -505,7 +505,7 @@ export default function TechUnderground() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-80px" }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="relative z-10 mx-auto max-w-5xl px-6 pt-36 text-center md:px-12 md:pt-52"
+        className="relative z-10 mx-auto max-w-5xl px-6 pt-16 text-center md:px-12 md:pt-52"
       >
         <p className="text-xs uppercase tracking-[0.4em] text-amber-300/70">
           Racines
