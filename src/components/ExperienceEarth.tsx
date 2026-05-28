@@ -443,7 +443,7 @@ export default function ExperienceEarth() {
       </motion.div>
 
       {/* Cartes — padding bas augmenté pour respirer au-dessus des toits */}
-      <div className="relative z-10 mx-auto mt-48 flex max-w-6xl flex-col gap-20 px-6 pb-72 md:mt-56 md:gap-28 md:px-12 md:pb-[22rem] lg:mt-64 lg:pb-[26rem]">
+      <div className="relative z-10 mx-auto mt-48 flex max-w-6xl flex-col gap-20 px-6 pb-52 md:mt-56 md:gap-28 md:px-12 md:pb-[22rem] lg:mt-64 lg:pb-[26rem]">
         {EXPERIENCES.map((exp, i) => {
           const isFirst = i === 0;
 
