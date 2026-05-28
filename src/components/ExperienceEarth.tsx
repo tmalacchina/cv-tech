@@ -36,65 +36,69 @@ const SNOW_PATHS = [
 
 const EXPERIENCES = [
   {
-    id: "biz-dev-ia",
-    title: "Business Developer IA & No-Code",
+    id: "dev-ia-no-code",
+    title: "Développeur IA & Automation",
     subtitle: "Freelance",
     period: "2025 → présent",
     side: "left" as const,
     bullets: [
       {
         label: "Horizon Forms",
-        text: "Co-fondé un SaaS IA d'orientation scolaire. Rapport personnalisé généré en moins de 30 min, déjà testé sur 200 lycéens pendant Parcoursup 2025.",
+        text: "Co-fondateur tech et contributeur au code du SaaS IA d'orientation scolaire. Intégration OpenAI / Claude APIs, génération de rapports personnalisés en < 30 min via prompt engineering production-grade. Premier déploiement à 200 lycéens (Parcoursup 2025).",
       },
       {
-        label: "R&D full-stack IA",
-        text: "Benchmark GPT / Claude / Gemini / Mistral / Grok sur cas réels. Pipelines d'agents n8n → OpenClaw → Claude Managed Agents. Prompt engineering production-grade.",
+        label: "Pipelines d'agents IA",
+        text: "Conception et code de workflows multi-agents (n8n, OpenClaw, Claude Managed Agents). Intégrations API custom (OpenAI, Claude, Gemini, Mistral, Grok). Benchmark des LLMs sur cas réels d'entreprise.",
       },
       {
         label: "Planet Line",
-        text: "Automatisation des process commerciaux et opérationnels d'une PME industrielle : devis, relances, suivi client.",
+        text: "Développement d'outils d'automation métier (devis, relances, suivi client) pour une PME industrielle. Stack : Python, APIs internes, intégrations no-code.",
+      },
+      {
+        label: "Portfolio dynamique (ce site)",
+        text: "Conception et code d'un CV portfolio en Next.js 14 / React / TypeScript / Tailwind / Framer Motion. Animations parallax au scroll, design narratif. Déployé sur Vercel, repo GitHub public.",
       },
     ],
   },
   {
-    id: "freelance-mirtech-loroverde",
-    title: "Freelance — Mirtech & Loroverde",
-    subtitle: "Missions B2B",
+    id: "freelance-crm",
+    title: "Développeur Freelance — Intégrations & CRM IA",
+    subtitle: "Mirtech & Loroverde",
     period: "2024 – 2025",
     side: "right" as const,
     bullets: [
       {
-        label: "Mirtech",
-        text: "Déployé un CRM IA-native : traitement automatique des mails, enrichissement des fiches clients depuis les appels téléphoniques, outil d'analyse des débriefs commerciaux pour décoder pourquoi un deal signe ou capote.",
+        label: "Mirtech — CRM IA-native",
+        text: "Conception et déploiement d'un CRM custom. Code des modules : traitement automatique des emails entrants, enrichissement de fiches clients via transcription d'appels téléphoniques (Sonix → OpenAI), pipeline d'analyse sémantique des débriefs commerciaux.",
       },
       {
-        label: "Loroverde",
-        text: "Co-création de la société de A à Z. Signature d'un partenariat avec un grand délégataire espagnol à Madrid.",
+        label: "Loroverde — Plateforme",
+        text: "Architecture technique d'une plateforme de mise en relation B2B. Intégrations API tierces, automations métier. Partenariat structurant signé à Madrid.",
       },
       {
         label: "Stack",
-        text: "OpenAI, Make, Zapier, Sonix. Du no-code au service d'un vrai impact commercial.",
+        text: "Python, OpenAI API, Make, Zapier, Sonix. Choix d'outils dictés par la contrainte time-to-market.",
       },
     ],
   },
   {
-    id: "hedon",
-    title: "Ingénieur d'Affaires",
+    id: "hedon-industriel",
+    title: "Référent Technique — Comptes Industriels",
     subtitle: "Hedon Technologies",
     period: "2023 – 2024",
     side: "left" as const,
     bullets: [
       {
-        label: "13 ingénieurs placés en 12 mois",
-        text: "Sur des comptes industriels critiques : nucléaire, automobile, télécom, défense.",
+        label: "Environnements techniques critiques",
+        text: "Immersion sur des comptes industriels exigeants : nucléaire, automobile, télécom, défense. Compréhension fine des contraintes de sûreté, conformité et cycles longs propres à ces secteurs.",
       },
       {
-        label: "Cycle B2B complet",
-        text: "Qualification du besoin client, sourcing et recrutement d'experts techniques, négociation TJM et contrats-cadres.",
+        label: "Interface technique ↔ projet",
+        text: "Dialogue quotidien avec des directions techniques et des architectes système sur des problématiques d'ingénierie pointue. Acquisition d'un vocabulaire et d'une culture industrielle solides.",
       },
       {
-        label: "École de terrain",
-        text: "C'est ici que j'ai appris à parler technique avec les ingés et business avec les décideurs.",
+        label: "École de la rigueur",
+        text: "C'est ici que j'ai appris à cadrer un besoin technique, documenter, et tenir un engagement de livraison face à des acteurs industriels critiques.",
       },
     ],
   },

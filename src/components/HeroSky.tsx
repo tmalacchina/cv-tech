@@ -200,9 +200,9 @@ export default function HeroSky() {
         </h1>
 
         <p className="mt-6 text-lg font-light tracking-wide text-slate-200 md:text-2xl lg:text-3xl">
-          Product Builder — Data &amp; IoT
+          Software Engineer
           <br />
-          <span className="text-base text-slate-300 md:text-lg lg:text-xl">Python · React · Low-Code</span>
+          <span className="text-base text-slate-300 md:text-lg lg:text-xl">Python · React · IA</span>
         </p>
 
         <div className="mt-8 max-w-md md:max-w-lg">

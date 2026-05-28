@@ -69,8 +69,8 @@ const SKILLS_CATEGORIES = [
     dotClass: "bg-rose-300",
     glowClass: "from-rose-500/10 to-transparent",
     skills: [
-      "Forte capacité à enseigner",
-      "Aisance à l'oral",
+      "Curiosité technique (veille active)",
+      "Autonomie sur problèmes techniques",
       "Créativité",
       "Adaptabilité (1 an en Colombie)",
       "Esprit d'équipe (rugby +20 ans)",

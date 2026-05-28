@@ -323,7 +323,7 @@ export default function MoltenCore() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="mx-auto mt-8 max-w-2xl text-base font-light leading-relaxed text-amber-50/90 md:text-lg"
         >
-          Tu as des capteurs à faire parler, une donnée terrain à remonter, un dashboard de supervision à construire. Je suis le mec qui prototype l'outil dans la semaine et qui livre du concret — pas un slide.
+          Tu cherches un dev junior confirmé capable d'attaquer une stack moderne (Python, React, APIs), de coder en autonomie, et de livrer en sprints courts. Je suis chaud pour rejoindre une mission qui me fait monter d'un cran.
         </motion.p>
 
         {/* Boutons CTA */}
