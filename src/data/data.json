@@ -1,0 +1,68 @@
+{
+  "experiences": [
+    {
+      "period": "2024 — Aujourd'hui",
+      "role": "Founder & Product Engineer",
+      "company": "Ma Startup",
+      "description": "Conception et développement d'un produit SaaS de A à Z : architecture Next.js, design system, CI/CD, acquisition. Pivot produit après 3 mois de discovery."
+    },
+    {
+      "period": "2022 — 2024",
+      "role": "Senior Front-End Engineer",
+      "company": "ScaleUp X",
+      "description": "Leadership technique sur le front (React, TypeScript). Refonte du design system interne, optimisation des perfs (LCP -45%), mentoring d'une équipe de 4."
+    },
+    {
+      "period": "2020 — 2022",
+      "role": "Full-Stack Developer",
+      "company": "Agence Y",
+      "description": "Livraison de produits clients en Next.js / Node. De la spec au déploiement, 8 projets livrés en 2 ans."
+    },
+    {
+      "period": "2018 — 2020",
+      "role": "Junior Developer",
+      "company": "Première entreprise",
+      "description": "Apprentissage des fondamentaux : React, TDD, revues de code, gestion de sprint."
+    }
+  ],
+  "stack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Node.js",
+    "PostgreSQL",
+    "Prisma",
+    "tRPC",
+    "Docker",
+    "Vercel",
+    "Figma"
+  ],
+  "projects": [
+    {
+      "name": "Projet Alpha",
+      "tag": "SaaS · B2B",
+      "description": "Plateforme d'automatisation pour équipes produit. Next.js, tRPC, Postgres. 0 → 1 en 4 mois.",
+      "url": "https://example.com/alpha"
+    },
+    {
+      "name": "Projet Beta",
+      "tag": "Open source",
+      "description": "Librairie d'animations accessibles basée sur Framer Motion. 1.2k ★ sur GitHub.",
+      "url": "https://example.com/beta"
+    },
+    {
+      "name": "Projet Gamma",
+      "tag": "Mobile",
+      "description": "App React Native pour suivi d'entraînement. 10k DAU au pic.",
+      "url": "https://example.com/gamma"
+    },
+    {
+      "name": "Projet Delta",
+      "tag": "Experiment",
+      "description": "Générateur de portfolios avec IA. Side-project qui a viralisé sur Twitter.",
+      "url": "https://example.com/delta"
+    }
+  ]
+}
