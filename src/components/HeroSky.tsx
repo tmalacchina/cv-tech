@@ -200,14 +200,14 @@ export default function HeroSky() {
         </h1>
 
         <p className="mt-6 text-lg font-light tracking-wide text-slate-200 md:text-2xl lg:text-3xl">
-          Software Engineer
+          Développeur Python / React
           <br />
-          <span className="text-base text-slate-300 md:text-lg lg:text-xl">Python · React · IA</span>
+          <span className="text-base text-slate-300 md:text-lg lg:text-xl">Back · Front · Data</span>
         </p>
 
         <div className="mt-8 max-w-md md:max-w-lg">
           <p className="text-base font-medium leading-relaxed text-white md:text-lg">
-            Du script Python qui parle aux capteurs au dashboard React qui les rend lisibles : je code la chaîne complète, du repo vide au produit qui tourne en production.
+            Développeur back et front. Python pour les pipelines de données et les APIs, React/Next.js pour les interfaces. Sprints courts, code versionné Git, doc tenue à jour.
           </p>
         </div>
       </motion.div>

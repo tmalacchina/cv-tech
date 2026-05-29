@@ -290,7 +290,7 @@ export default function MoltenCore() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="text-xs uppercase tracking-[0.4em] text-amber-200/80 md:text-sm"
         >
-          Disponible — mission Enterprise
+          Disponible — mission développement
         </motion.p>
 
         <motion.h2
@@ -323,7 +323,7 @@ export default function MoltenCore() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="mx-auto mt-8 max-w-2xl text-base font-light leading-relaxed text-amber-50/90 md:text-lg"
         >
-          Vous concevez un outil de remontée de données capteurs, un dashboard de supervision industriel ou un PoC à industrialiser. Je développe et livre — Python pour la chaîne data, React pour l'interface, méthode courte de la spec à la mise en service.
+          Développeur disponible pour mission longue ou courte. Stack : Python (FastAPI, scripts, ETL), React / Next.js (TypeScript), intégrations APIs et bases de données. Méthodologie : Git, Jira, Confluence, sprints courts, code propre.
         </motion.p>
 
         {/* Boutons CTA */}

@@ -37,68 +37,64 @@ const SNOW_PATHS = [
 const EXPERIENCES = [
   {
     id: "dev-ia-no-code",
-    title: "Développeur IA & Automation",
+    title: "Développeur — IA & Automation",
     subtitle: "Freelance",
     period: "2025 → présent",
     side: "left" as const,
     bullets: [
       {
         label: "Horizon Forms",
-        text: "Co-fondateur tech et contributeur au code du SaaS IA d'orientation scolaire. Intégration OpenAI / Claude APIs, génération de rapports personnalisés en < 30 min via prompt engineering production-grade. Premier déploiement à 200 lycéens (Parcoursup 2025).",
+        text: "Développement d'un SaaS d'orientation scolaire en Next.js / TypeScript / Python. Intégration des APIs OpenAI et Anthropic. Génération de rapports via templating et prompt engineering production-grade.",
       },
       {
-        label: "Pipelines d'agents IA",
-        text: "Conception et code de workflows multi-agents (n8n, OpenClaw, Claude Managed Agents). Intégrations API custom (OpenAI, Claude, Gemini, Mistral, Grok). Benchmark des LLMs sur cas réels d'entreprise.",
+        label: "Pipelines multi-agents",
+        text: "Conception et code de workflows agents en n8n + scripts Python d'orchestration. Intégration d'APIs LLM (OpenAI, Anthropic, Google, Mistral, xAI) avec logs structurés et fallback.",
       },
       {
         label: "Planet Line",
-        text: "Développement d'outils d'automation métier (devis, relances, suivi client) pour une PME industrielle. Stack : Python, APIs internes, intégrations no-code.",
+        text: "Scripts Python d'automatisation métier pour PME industrielle : génération de devis depuis CRM, relances email asynchrones, ETL fichiers comptables.",
       },
       {
         label: "Portfolio dynamique (ce site)",
-        text: "Conception et code d'un CV portfolio en Next.js 14 / React / TypeScript / Tailwind / Framer Motion. Animations parallax au scroll, design narratif. Déployé sur Vercel, repo GitHub public.",
+        text: "Application Next.js 14 + TypeScript + Tailwind + Framer Motion. Animations parallax scroll, déploiement CI/CD via Vercel, repo public sur GitHub.",
       },
     ],
   },
   {
     id: "freelance-crm",
-    title: "Développeur Freelance — Intégrations & CRM IA",
+    title: "Développeur Freelance — CRM & Intégrations",
     subtitle: "Mirtech & Loroverde",
     period: "2024 – 2025",
     side: "right" as const,
     bullets: [
       {
-        label: "Mirtech — CRM IA-native",
-        text: "Conception et déploiement d'un CRM custom. Code des modules : traitement automatique des emails entrants, enrichissement de fiches clients via transcription d'appels téléphoniques (Sonix → OpenAI), pipeline d'analyse sémantique des débriefs commerciaux.",
+        label: "Mirtech — CRM custom",
+        text: "Développement d'un CRM Python : parser email (IMAP), transcription audio via Sonix, analyse sémantique via OpenAI API, persistence base de données.",
       },
       {
-        label: "Loroverde — Plateforme",
-        text: "Architecture technique d'une plateforme de mise en relation B2B. Intégrations API tierces, automations métier. Partenariat structurant signé à Madrid.",
+        label: "Loroverde — Backend",
+        text: "Architecture et code des APIs REST en Python, intégrations Make/Zapier pour automatisations métier, déploiement cloud.",
       },
       {
         label: "Stack",
-        text: "Python, OpenAI API, Make, Zapier, Sonix. Choix d'outils dictés par la contrainte time-to-market.",
+        text: "Python, OpenAI API, Make, Zapier, Sonix, PostgreSQL, Git.",
       },
     ],
   },
   {
     id: "hedon-industriel",
-    title: "Référent Technique — Comptes Industriels",
+    title: "Référent Comptes Industriels",
     subtitle: "Hedon Technologies",
     period: "2023 – 2024",
     side: "left" as const,
     bullets: [
       {
-        label: "Environnements techniques critiques",
-        text: "Immersion sur des comptes industriels exigeants : nucléaire, automobile, télécom, défense. Compréhension fine des contraintes de sûreté, conformité et cycles longs propres à ces secteurs.",
+        label: "Environnements techniques exigeants",
+        text: "Immersion sur des comptes industriels critiques : nucléaire, automobile, télécom, défense. Acquisition d'une culture technique sectorielle solide.",
       },
       {
-        label: "Interface technique ↔ projet",
-        text: "Dialogue quotidien avec des directions techniques et des architectes système sur des problématiques d'ingénierie pointue. Acquisition d'un vocabulaire et d'une culture industrielle solides.",
-      },
-      {
-        label: "École de la rigueur",
-        text: "C'est ici que j'ai appris à cadrer un besoin technique, documenter, et tenir un engagement de livraison face à des acteurs industriels critiques.",
+        label: "Cadrage de besoin",
+        text: "Dialogue avec directions techniques et architectes système. Traduction des besoins métier en spécifications techniques exploitables.",
       },
     ],
   },

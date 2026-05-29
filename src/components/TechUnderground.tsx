@@ -65,9 +65,9 @@ const SKILLS_CATEGORIES = [
     id: "soft",
     label: "Soft Skills",
     eyebrow: "Ce qui ne s'apprend pas en stack",
-    borderClass: "border-rose-400/25 hover:border-rose-300/60",
-    dotClass: "bg-rose-300",
-    glowClass: "from-rose-500/10 to-transparent",
+    borderClass: "border-slate-400/20 hover:border-slate-300/50",
+    dotClass: "bg-slate-400",
+    glowClass: "from-slate-400/10 to-transparent",
     skills: [
       "Curiosité technique (veille active)",
       "Autonomie sur problèmes techniques",
