@@ -60,7 +60,7 @@ const seed = (n: number) => {
 const r = (n: number) => Number(n.toFixed(3));
 
 /* Bulles de lave — montent depuis le sol, gonflent, éclatent */
-const BUBBLES = Array.from({ length: 12 }, (_, i) => {
+const BUBBLES = Array.from({ length: 8 }, (_, i) => {
   const sizeRaw = 18 + seed(i * 1.7) * 32; // 18-50 px
   const durationRaw = 7 + seed(i * 2.3) * 8; // 7-15 s
   const delayRaw = -seed(i * 3.1) * 14;
@@ -73,7 +73,7 @@ const BUBBLES = Array.from({ length: 12 }, (_, i) => {
 });
 
 /* Braises — petits points qui montent en linéaire avec drift latéral */
-const EMBERS = Array.from({ length: 30 }, (_, i) => {
+const EMBERS = Array.from({ length: 15 }, (_, i) => {
   const sizeRaw = 1.2 + seed(i * 1.3) * 2.5; // 1.2-3.7 px
   const durationRaw = 5 + seed(i * 2.7) * 7; // 5-12 s
   const delayRaw = -seed(i * 4.1) * 10;

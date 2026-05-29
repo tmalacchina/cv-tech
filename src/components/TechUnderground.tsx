@@ -6,7 +6,7 @@ import {
   useTransform,
   type MotionValue,
 } from "framer-motion";
-import { useRef } from "react";
+import { memo, useRef } from "react";
 
 /* =================================================================
  * SKILLS — 4 catégories + langues (inchangé depuis V1)
@@ -101,29 +101,21 @@ const PALETTES: Record<
   { width: number; color: string; opacity: number }[]
 > = {
   thick: [
-    { width: 22, color: "#08040200", opacity: 0 }, // placeholder pour ombre douce
-    { width: 18, color: "#0E0805", opacity: 0.95 }, // ombre extérieure
-    { width: 13, color: "#1F1209", opacity: 1 }, // base sombre
-    { width: 9, color: "#3D2614", opacity: 1 }, // mid brown
-    { width: 5, color: "#6B4423", opacity: 1 }, // brun chaud
-    { width: 2, color: "#A87650", opacity: 0.85 }, // highlight
+    { width: 18, color: "#0E0805", opacity: 0.95 },
+    { width: 11, color: "#3D2614", opacity: 1 },
+    { width: 4, color: "#8B5E2F", opacity: 0.9 },
   ],
   medium: [
-    { width: 14, color: "#0E0805", opacity: 0.85 }, // ombre
-    { width: 10, color: "#1F1209", opacity: 1 },
+    { width: 12, color: "#1A0F07", opacity: 0.9 },
     { width: 6, color: "#3D2614", opacity: 1 },
-    { width: 3, color: "#6B4423", opacity: 1 },
-    { width: 1, color: "#9C7048", opacity: 0.8 },
+    { width: 2, color: "#8B5E2F", opacity: 0.85 },
   ],
   thin: [
-    { width: 6, color: "#1A0F07", opacity: 0.85 },
-    { width: 3.5, color: "#3D2614", opacity: 1 },
-    { width: 1.6, color: "#6B4423", opacity: 0.95 },
-    { width: 0.6, color: "#8B5E2F", opacity: 0.7 },
+    { width: 5, color: "#241408", opacity: 0.85 },
+    { width: 2, color: "#5A3A1F", opacity: 0.95 },
   ],
   capillary: [
-    { width: 2, color: "#3D2614", opacity: 0.9 },
-    { width: 0.9, color: "#6B4423", opacity: 0.75 },
+    { width: 1.5, color: "#5A3A1F", opacity: 0.85 },
   ],
 };
 
@@ -368,7 +360,7 @@ const SYSTEMS: Segment[][] = [
  * créent l'illusion d'un volume cylindrique.
  * ================================================================= */
 
-function RootSegment({
+const RootSegment = memo(function RootSegment({
   d,
   tier,
   pathLength,
@@ -395,7 +387,7 @@ function RootSegment({
       ))}
     </>
   );
-}
+});
 
 /* =================================================================
  * Petites particules de terre/cailloux pour la texture

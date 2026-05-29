@@ -1,7 +1,13 @@
 import HeroSky from "@/components/HeroSky";
 import ExperienceEarth from "@/components/ExperienceEarth";
-import TechUnderground from "@/components/TechUnderground";
-import MoltenCore from "@/components/MoltenCore";
+import dynamic from "next/dynamic";
+
+const TechUnderground = dynamic(() => import("@/components/TechUnderground"), {
+  loading: () => <div style={{ minHeight: "100vh" }} />,
+});
+const MoltenCore = dynamic(() => import("@/components/MoltenCore"), {
+  loading: () => <div style={{ minHeight: "100vh" }} />,
+});
 
 export default function Home() {
   return (

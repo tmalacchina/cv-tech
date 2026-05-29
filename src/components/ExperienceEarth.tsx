@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
+import { memo, useState } from "react";
 
 /**
  * 50 flocons pré-calculés — positions, tailles, vitesses déterministes.
  */
-const SNOWFLAKES = Array.from({ length: 50 }, (_, i) => {
+const SNOWFLAKES = Array.from({ length: 25 }, (_, i) => {
   const seed = (n: number) => {
     const x = Math.sin(n * 13.7 + 1.3) * 10000;
     return x - Math.floor(x);
@@ -171,7 +171,7 @@ const CITY_BUILDINGS: Building[] = BUILDING_SPECS.map((b, i) => {
  * En "summer" : silhouette plus claire (reflète le ciel bleu),
  * fenêtres bleu-clair tamisées, pas de neige.
  */
-function CityBuilding({
+const CityBuilding = memo(function CityBuilding({
   building,
   mode,
 }: {
@@ -276,7 +276,7 @@ function CityBuilding({
       )}
     </g>
   );
-}
+});
 
 /**
  * ExperienceEarth (Section 2) — Ciel enneigé/ensoleillé + Parcours + Skyline
