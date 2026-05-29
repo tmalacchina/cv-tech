@@ -207,7 +207,7 @@ export default function HeroSky() {
 
         <div className="mt-8 max-w-md md:max-w-lg">
           <p className="text-base font-medium leading-relaxed text-white md:text-lg">
-            Passionné d'informatique et de technologies.
+            Je code depuis 2 ans, principalement sur des projets web, des outils data et de l'automatisation. Le moment que je préfère : voir l'outil tourner en prod et qu'on s'en serve.
           </p>
         </div>
       </motion.div>

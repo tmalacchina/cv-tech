@@ -36,23 +36,23 @@ const SNOW_PATHS = [
 
 const EXPERIENCES = [
   {
-    id: "dev-ia-no-code",
-    title: "Développeur — IA & Automation",
-    subtitle: "Freelance",
+    id: "dev-web-automation",
+    title: "Développeur Freelance — Web & Automation",
+    subtitle: "Missions clients",
     period: "2025 → présent",
     side: "left" as const,
     bullets: [
       {
         label: "Horizon Forms",
-        text: "Développement d'un SaaS d'orientation scolaire en Next.js / TypeScript / Python. Intégration des APIs OpenAI et Anthropic. Génération de rapports via templating et prompt engineering production-grade.",
+        text: "Développement d'un SaaS web en Next.js / TypeScript / Python. Templating de rapports, intégration d'APIs externes (dont OpenAI et Anthropic), optimisation de perf et déploiement.",
       },
       {
-        label: "Pipelines multi-agents",
-        text: "Conception et code de workflows agents en n8n + scripts Python d'orchestration. Intégration d'APIs LLM (OpenAI, Anthropic, Google, Mistral, xAI) avec logs structurés et fallback.",
+        label: "Workflows d'automatisation",
+        text: "Conception et code de workflows en n8n + scripts Python d'orchestration. Intégration d'APIs tierces (services métier, LLMs), logs structurés et fallback.",
       },
       {
         label: "Planet Line",
-        text: "Scripts Python d'automatisation métier pour PME industrielle : génération de devis depuis CRM, relances email asynchrones, ETL fichiers comptables.",
+        text: "Scripts Python d'automatisation pour une PME industrielle : génération de devis depuis CRM, relances email asynchrones, ETL fichiers comptables.",
       },
       {
         label: "Portfolio dynamique (ce site)",
@@ -61,23 +61,23 @@ const EXPERIENCES = [
     ],
   },
   {
-    id: "freelance-crm",
-    title: "Développeur Freelance — CRM & Intégrations",
+    id: "freelance-crm-backend",
+    title: "Développeur Freelance — CRM & Backend",
     subtitle: "Mirtech & Loroverde",
     period: "2024 – 2025",
     side: "right" as const,
     bullets: [
       {
         label: "Mirtech — CRM custom",
-        text: "Développement d'un CRM Python : parser email (IMAP), transcription audio via Sonix, analyse sémantique via OpenAI API, persistence base de données.",
+        text: "Développement d'un CRM en Python : parser email (IMAP), transcription audio, traitement via API tierce, persistence base de données.",
       },
       {
         label: "Loroverde — Backend",
-        text: "Architecture et code des APIs REST en Python, intégrations Make/Zapier pour automatisations métier, déploiement cloud.",
+        text: "Architecture et code des APIs REST en Python. Intégrations Make / Zapier pour automatisations métier, déploiement cloud.",
       },
       {
         label: "Stack",
-        text: "Python, OpenAI API, Make, Zapier, Sonix, PostgreSQL, Git.",
+        text: "Python, PostgreSQL, Git, APIs REST, Make, Zapier, OpenAI API.",
       },
     ],
   },
@@ -90,11 +90,11 @@ const EXPERIENCES = [
     bullets: [
       {
         label: "Environnements techniques exigeants",
-        text: "Immersion sur des comptes industriels critiques : nucléaire, automobile, télécom, défense. Acquisition d'une culture technique sectorielle solide.",
+        text: "Immersion sur des comptes industriels critiques : nucléaire, automobile, télécom, défense. Acquisition d'une culture technique sectorielle solide — utile pour comprendre les contraintes d'un projet industriel.",
       },
       {
         label: "Cadrage de besoin",
-        text: "Dialogue avec directions techniques et architectes système. Traduction des besoins métier en spécifications techniques exploitables.",
+        text: "Dialogue avec directions techniques et architectes système. Traduction des besoins métier en spécifications techniques exploitables par les équipes dev.",
       },
     ],
   },

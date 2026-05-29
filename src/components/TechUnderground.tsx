@@ -21,12 +21,12 @@ const SKILLS_CATEGORIES = [
     dotClass: "bg-amber-300",
     glowClass: "from-amber-500/10 to-transparent",
     skills: [
-      "Python (collecte, traitement, APIs)",
-      "React / Next.js",
-      "TypeScript / JavaScript",
-      "APIs REST & intégrations",
-      "Prototypage rapide d'outils métier",
-      "Claude Code / dev assisté par IA",
+      "Python (FastAPI, scripts, ETL)",
+      "React / Next.js / TypeScript",
+      "Tailwind CSS, Framer Motion",
+      "APIs REST & intégrations tierces",
+      "LLMs (OpenAI, Anthropic) en complément",
+      "Bases de données (SQL / NoSQL)",
     ],
   },
   {
