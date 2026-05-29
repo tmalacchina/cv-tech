@@ -207,7 +207,7 @@ export default function HeroSky() {
 
         <div className="mt-8 max-w-md md:max-w-lg">
           <p className="text-base font-medium leading-relaxed text-white md:text-lg">
-            Développeur Python / React. Je construis des outils data et les interfaces qui vont avec.
+            Passionné d'informatique et de technologies.
           </p>
         </div>
       </motion.div>
