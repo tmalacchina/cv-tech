@@ -323,7 +323,7 @@ export default function MoltenCore() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="mx-auto mt-8 max-w-2xl text-base font-light leading-relaxed text-amber-50/90 md:text-lg"
         >
-          Développeur disponible pour mission longue ou courte. Stack : Python (FastAPI, scripts, ETL), React / Next.js (TypeScript), intégrations APIs et bases de données. Méthodologie : Git, Jira, Confluence, sprints courts, code propre.
+          Développeur disponible pour mission longue ou courte, à partir du 1er juillet 2026. Si votre projet correspond à mon profil, contactez-moi via les coordonnées ci-dessous — un premier échange suffira pour voir si ça matche avec votre besoin.
         </motion.p>
 
         {/* Boutons CTA */}
