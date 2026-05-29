@@ -200,14 +200,14 @@ export default function HeroSky() {
         </h1>
 
         <p className="mt-6 text-lg font-light tracking-wide text-slate-200 md:text-2xl lg:text-3xl">
-          Développeur Python / React
+          Ingénieur Web Full-Stack
           <br />
-          <span className="text-base text-slate-300 md:text-lg lg:text-xl">Back · Front · Data</span>
+          <span className="text-base text-slate-300 md:text-lg lg:text-xl">Python · React · APIs</span>
         </p>
 
         <div className="mt-8 max-w-md md:max-w-lg">
           <p className="text-base font-medium leading-relaxed text-white md:text-lg">
-            Je code depuis 2 ans, principalement sur des projets web, des outils data et de l'automatisation. Le moment que je préfère : voir l'outil tourner en prod et qu'on s'en serve.
+            Je code depuis 2 ans des applications web : SaaS, dashboards data, outils internes. Back en Python, front en React, et tout ce qu'il faut autour pour qu'un projet tienne en prod.
           </p>
         </div>
       </motion.div>

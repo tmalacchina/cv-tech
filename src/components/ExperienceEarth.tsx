@@ -36,23 +36,23 @@ const SNOW_PATHS = [
 
 const EXPERIENCES = [
   {
-    id: "dev-web-automation",
-    title: "Développeur Freelance — Web & Automation",
-    subtitle: "Missions clients",
+    id: "fullstack-freelance-2025",
+    title: "Ingénieur Full-Stack Freelance",
+    subtitle: "Missions web & data",
     period: "2025 → présent",
     side: "left" as const,
     bullets: [
       {
-        label: "Horizon Forms",
-        text: "Développement d'un SaaS web en Next.js / TypeScript / Python. Templating de rapports, intégration d'APIs externes (dont OpenAI et Anthropic), optimisation de perf et déploiement.",
+        label: "Horizon Forms — SaaS web",
+        text: "Conception et développement d'une application SaaS en Next.js / TypeScript / Python. Back : APIs REST, logique métier, persistence en base. Front : interface React responsive, templating de rapports. Intégration d'APIs tierces (dont OpenAI et Anthropic).",
+      },
+      {
+        label: "Planet Line — Outil interne",
+        text: "Développement d'un outil de back-office pour une PME industrielle : génération de devis depuis CRM, relances email asynchrones, ETL fichiers comptables. Back Python, scripts orchestrés.",
       },
       {
         label: "Workflows d'automatisation",
-        text: "Conception et code de workflows en n8n + scripts Python d'orchestration. Intégration d'APIs tierces (services métier, LLMs), logs structurés et fallback.",
-      },
-      {
-        label: "Planet Line",
-        text: "Scripts Python d'automatisation pour une PME industrielle : génération de devis depuis CRM, relances email asynchrones, ETL fichiers comptables.",
+        text: "Conception et code de workflows n8n + scripts Python pour automatiser des process métier (intégrations API tierces, services LLMs, logs structurés, fallback).",
       },
       {
         label: "Portfolio dynamique (ce site)",
@@ -61,19 +61,19 @@ const EXPERIENCES = [
     ],
   },
   {
-    id: "freelance-crm-backend",
-    title: "Développeur Freelance — CRM & Backend",
+    id: "fullstack-freelance-2024",
+    title: "Ingénieur Full-Stack Freelance",
     subtitle: "Mirtech & Loroverde",
     period: "2024 – 2025",
     side: "right" as const,
     bullets: [
       {
-        label: "Mirtech — CRM custom",
-        text: "Développement d'un CRM en Python : parser email (IMAP), transcription audio, traitement via API tierce, persistence base de données.",
+        label: "Mirtech — CRM custom (back-office)",
+        text: "Développement d'un CRM interne en Python. Modules : parser email (IMAP), transcription audio, traitement via API tierce, persistence base de données. Interface de gestion pour les équipes commerciales.",
       },
       {
-        label: "Loroverde — Backend",
-        text: "Architecture et code des APIs REST en Python. Intégrations Make / Zapier pour automatisations métier, déploiement cloud.",
+        label: "Loroverde — Plateforme B2B",
+        text: "Architecture et code des APIs REST en Python. Intégrations Make / Zapier pour automatisations métier. Déploiement cloud, supervision des workflows.",
       },
       {
         label: "Stack",
@@ -90,11 +90,11 @@ const EXPERIENCES = [
     bullets: [
       {
         label: "Environnements techniques exigeants",
-        text: "Immersion sur des comptes industriels critiques : nucléaire, automobile, télécom, défense. Acquisition d'une culture technique sectorielle solide — utile pour comprendre les contraintes d'un projet industriel.",
+        text: "Immersion sur des comptes industriels critiques : nucléaire, automobile, télécom, défense. Acquisition d'une culture technique sectorielle solide — précieuse pour comprendre les contraintes d'un projet industriel (cycles longs, sûreté, conformité).",
       },
       {
-        label: "Cadrage de besoin",
-        text: "Dialogue avec directions techniques et architectes système. Traduction des besoins métier en spécifications techniques exploitables par les équipes dev.",
+        label: "Cadrage technique de projet",
+        text: "Dialogue quotidien avec directions techniques et architectes système. Traduction des besoins métier en spécifications exploitables par les équipes de développement.",
       },
     ],
   },
